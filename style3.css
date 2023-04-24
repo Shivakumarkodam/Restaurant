@@ -1,0 +1,177 @@
+.right button {
+    border-radius: 10px;
+    background: #ea1538;
+    width: 70px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .3s;
+}
+
+.container {
+    border: 0px solid;
+    background-color: rgba(120, 136, 50, 0.86);
+    height: 60px;
+    border-radius: 25px;
+    
+}
+.mid ul{
+    margin-top: 8px;
+}
+
+.right button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.mid {
+    display: inline-block;
+    width: fit-content;
+    position: absolute;
+    top: 1%;
+    left: 34%;
+    margin-left: -60px;
+}
+
+.mid ul li {
+    display: inline;
+    list-style: none;
+    font-size: 1.5em;
+    margin-right: 23px;
+    font-family: 'Roboto Slab', serif;
+    padding-right: 2px;
+}
+
+.mid ul li a {
+    text-decoration: none;
+    color: #fff;
+
+
+    padding: 2px 2px ;
+
+
+
+
+}
+
+.left {
+    margin-top: -18px;
+    display: inline-block;
+    margin-left: 79px;
+    font-size: 1.7em;
+    font-family: 'Tilt Prism', cursive;    
+}
+
+
+
+
+body {
+    background-image: url(new4.jpg);
+    background-size: cover;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
+.right {
+    position: absolute;
+    right: 17px;
+    top: 17px;
+}
+
+.right ul li {
+    display: inline;
+
+}
+
+.bottom {
+    display: flex;
+    height: 30px;
+    width: 30px;
+}
+#search{
+    padding-right: 1px ;
+    padding-top: -16px;
+}
+ul li a:hover {
+    color: #fff;
+    background-color: #939a6f;
+    transition: 0.3s;
+ 
+    border-radius: 16px;
+
+
+
+}
+.mid ul li.active a {
+    color: #fff;
+
+    background-color: #939a6f;
+    padding: 0px 10px;
+    border-radius: 16px;
+
+
+}
+.discount{
+    display: flex;
+    justify-content: center;
+    margin-top: 350px;
+    margin-left: 700px; 
+    font-size: 1.2em;
+    color: #1600a5;
+    font-family: 'Merriweather', serif;
+}
+.box button{
+    display: flex;
+    margin-left: 750px;
+    padding: 5px 13px;
+    margin-left: 935px;
+    margin-top: 5px;
+}
+.box button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.box button {
+    border-radius: 10px;
+    background: #ea1538;
+
+    color: white;
+ 
+  
+    transition: .3s;
+}
+.img1 img{
+
+width: 70px;
+display: flex;
+margin-top: -516px;
+border-radius: 200px;
+
+}
+.img2{
+    display: flex;
+    align-items: center;
+    margin-top: 42px;
+    margin-left: 96px;
+    justify-content: space-around;
+    flex-direction: row;
+
+    
+}
+
+.two{
+
+    height: 200px;
+    width: 260px;
+    margin-top: 100px;
+    border-radius: 54px;
+    margin-left: 590px;
+
+}
